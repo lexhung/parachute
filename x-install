@@ -1,0 +1,5 @@
+#!/bin/sh
+
+curl -L -o ./bin/static-get http://s.minos.io/s
+chmod +x static-get
+./bin/static-get -x -d ./app make git tmux
